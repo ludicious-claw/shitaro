@@ -7,8 +7,6 @@ if not LPH_OBFUSCATED then
 	g.NONE, g.OPAL, g.ONYX, g.FAST, g.BALANCED, g.SECURE = a, a, a, a, a, a
 	g.EXTRACT, g.CONTROL_FLOW, g.REWRITE_NAMECALLS, g.GLOBALS, g.CONSTANTS = a, a, a, a, a
 end
-
-print("hey welcome to gay party nigga remake by shitaro detka")
 local shhttp = rawget(getfenv(), "request")
 	or (syn and syn.request)
 	or (http and http.request)
